@@ -2,20 +2,69 @@
 <html>
     <head>
         <title>Cosmin Bararu</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
-    
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     </head>
     <body>
-            <div class="container">
-                    <div class="row">
-                      <div class="col col-sm-6">
-                        1 of 2
-                      </div>
-                      <div class="col col-sm-3">
-                        2 of 2
-                      </div>
-                    </div>
-            </div>
+        <nav class="zone black sticky">
+          <ul class = "main-nav">
+            <li><a href="" onclick="return false;" id="about">About</a></li>
+            <li><a href="" onclick="return false;">Resume</a></li>
+            <li><a href="" onclick="return false;" id="portfolio">Portfolio</a></li>
+            <li class="push" onclick="return false;"><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="container black">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/cosmin-bararu-a9a585176/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/xCocoDev">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/cosminbrr/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/bararu.cosmin">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+
+            <img class ="cover rounded-circle" src="./img/profile.jpg">
+            <h1>Cosmin Băraru</h1>
+            <h2 class="my-title">Game Developer</h2>
+          <div class="about-wrapper">
+              <div class="about-description">
+                  <p>I am a young game engineer with several years of experience with different MMORPG frameworks such as TrinityCore
+                  <a href="https://github.com/TrinityCore/TrinityCore">(<i class="fab fa-github"></i>)</a>.</p>
+                  
+                  <p>My game development career started when I was about 13 years old and ever since I have been working for multiple World of Warcraft servers all over the globe as a freelancer and later as a full-time employee as I passed the legal age of working. </p>
+
+                  <p class="topics"> My favorite topics related to game development to talk about and work on are:
+                    <ul class="topics-ordered">
+                      <li class="topics-element">AI</li>
+                      <li class="topics-element">Gameplay</li>
+                      <li class="topics-element">Networking</li>
+                    </ul>
+                  </p>
+
+                  <p>
+                  In my spare time I am following a Bachelor Degree of Science in Game Engineering and I get myself into projects with other community members to develop games in Unreal Engine 4 and Unity both for mobile and PC to enhance my skills.
+                  </p>
+                </div>
+          </div>
+          <footer>©2019 Cosmin Băraru</footer>
+        </div>
+        <div class="black grid-wrapper" id="portfolioGrid">
+            <div class="box zone"><img src="./img/files_2.png"></div>
+            <div class="box zone"><img src="./img/server_2_2.png"></div>
+            <div class="box zone"><img src="./img/monitor_settings_2.png"></div>
+            <div class="box zone"><img src="./img/server_3.png"></div>
+            <div class="box zone"><img src="./img/data_storage_2_2.png"></div>
+            <div class="box zone"><img src="./img/monitor_coding_2.png"></div>
+            <div class="box zone"><img src="./img/desktop_analytics_2.png"></div>
+            <div class="box zone"><img src="./img/server_safe_2.png"></div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
