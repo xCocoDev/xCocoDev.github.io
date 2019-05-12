@@ -100,7 +100,7 @@ a:hover {
 
 .container > img {
     width: 400px;
-    max-height: 400px;
+    max-height: 450px;
 }
 
 .social-icons a {
@@ -115,10 +115,6 @@ a:hover {
     line-height: 3.5rem;
     margin-right: 1rem;
     margin-top: 5px;
-}
-
-div {
-    display: block;
 }
 
 .cover {
@@ -138,6 +134,7 @@ h1 {
     margin-top: 5px;
     color: #e7e7e7;
     text-decoration: none;
+
     font-weight: 550;
 }
 
@@ -191,13 +188,112 @@ footer {
     cursor:pointer;
     color:#FFF;
     font-size:1rem;
-    background: 2a2a2a;
+    background: #2a2a2a;
     margin-top: 20px;
 }
 
-#portfolioGrid {
+#portfolioId, #resumeId, #contactId {
     display: none;
 }
+
+ /* RESUME */
+#resumeId {
+    overflow: hidden;
+    height: 100%;
+    left: 0px;
+}
+
+#resume-gridContainer {
+    display: grid;
+    padding-top: 100px;
+    padding-left: 150px;
+    grid-template-columns: 400px 600px 275px;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 0px 50px;
+}
+
+#resumeId h1 {
+    /* background: rgb(121, 114, 114); */
+    height: auto;
+    margin-top: 0;
+}
+
+.experience {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.experienceTitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e7e7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid #313131;
+}
+
+.experienceCompany {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8d8c8c;
+    margin-top: 0px!important;
+    margin-bottom: 0px;
+}
+
+.experienceTimeframe {
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    color: #8d8c8c;
+}
+
+.experienceDescription {
+    border-top: 2px solid #313131;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e7e7;
+
+    font-size: 1.45rem;
+    font-weight: 400;
+}
+
+.experience-ordered-list {
+    /* list-style: none; */
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.experience-list-item {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.experience-company-link {
+    color: #8d8c8c;
+}
+
+.experience-wrapper {
+    /* border-left: 2px solid #313131; */
+    margin-bottom: 50px;
+}
+
+.experience-timeframe-wrapper {
+    grid-column: 3 / 3;
+}
+
+
+.resume-left-descriptions {
+    grid-column: 1/1;
+}
+
+ /* RESUME */
 
 /* Black Background */
 .black {
