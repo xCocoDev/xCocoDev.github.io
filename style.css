@@ -218,7 +218,7 @@ footer {
     margin-top: 0;
 }
 
-.experience {
+.experience, .skills, .education {
     grid-column-start: 2;
     grid-column-end: 2;
 }
@@ -288,9 +288,29 @@ footer {
     grid-column: 3 / 3;
 }
 
-
 .resume-left-descriptions {
     grid-column: 1/1;
+}
+
+dt {
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8d8c8c;
+}
+
+dd {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e7e7;
+}
+
+#saxion1 {
+    color: #e7e7e7;
+}
+
+#saxion2 {
+    color: #8d8c8c;
 }
 
  /* RESUME */
