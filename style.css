@@ -156,10 +156,6 @@ footer {
     margin-top: 20px;
 }
 
-#portfolioId, #resumeId, #contactId {
-    display: none;
-}
-
  /* RESUME */
 #resumeId {
     overflow: hidden;
@@ -311,8 +307,8 @@ dd {
 
 /* Project Grid */
 .grid-container {
-    width: 100%;
-    margin: 3em 0 3em;
+    width: auto;
+    margin: 4em;
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -325,13 +321,13 @@ dd {
 }
 
 .box {
-    background-color: #313131;
+    background-color: #fff;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
 
-    width: 350px;
+    width: 100%;
     height: 300px;
 }
 
