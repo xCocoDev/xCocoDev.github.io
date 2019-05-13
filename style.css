@@ -283,7 +283,6 @@ dd {
 /* Portfolio */
 .zone {
     cursor:pointer;
-    color:#FFF;
     font-size:2em;
     border-radius:4px;
     border:1px solid #313131;
@@ -309,6 +308,7 @@ dd {
 .grid-container {
     width: auto;
     margin: 4em;
+    margin-top: 6em;
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -321,54 +321,40 @@ dd {
 }
 
 .box {
-    background-color: #fff;
+    background-color: #313131;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
 
+    position: relative;
+
     width: 100%;
     height: 300px;
+
+    transition: 0.3s;
+}
+
+.overlay-text {
+    opacity: 0;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box:hover .overlay-text {
+    opacity: 1;
 }
 
 #portfolioId {
     margin-top: 70px;
 }
-
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transform: scale(0, 0);
-    transition: transform 0.3s, opacity 0.3s;
-    backface-visibility: hidden;
-  }
-  
-/* When you mouse over the container, the overlay text will "zoom" in display */
-.zone:hover .overlay {
-    opacity: 1;
-    transform: translate(20px, 20px);
-}
-
-  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.overlay-text {
-    color: white;
-    font-size: 1.5rem;
-    font-style: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
 
 /* Portfolio */
 
