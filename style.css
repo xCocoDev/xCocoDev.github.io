@@ -236,7 +236,6 @@ footer {
 
 .experienceDescription {
     border-top: 2px solid #313131;
-    font-size: 1.25rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e7e7e7;
 
@@ -281,10 +280,11 @@ dt {
 }
 
 dd {
-    font-size: 1.25rem;
-    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e7e7e7;
+
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 #saxion1 {
