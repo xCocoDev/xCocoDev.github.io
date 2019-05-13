@@ -331,8 +331,6 @@ dd {
 
     width: 100%;
     height: 300px;
-
-    transition: 0.3s;
 }
 
 .overlay-text {
@@ -344,8 +342,10 @@ dd {
     top: 6%;
     left: 50%;
     width: 100%;
+    color: #e7e7e7;
     transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: opacity 1.0s;
 }
 
 .box:hover .overlay-text {
