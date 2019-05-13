@@ -147,23 +147,6 @@ h1 {
     padding-left: 5px;
 }
 
-/* Project Grid */
-.grid-wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
-.box > img {
-    width: 100%;
-}
-
-.box {
-    background-color: #444;
-    padding: 130px;
-    margin: 20px;
-}
-
 footer {
     text-align: center;
     cursor:pointer;
@@ -309,6 +292,7 @@ dd {
     border-radius:4px;
     border:1px solid #313131;
     transition: all 0.2s linear;
+
 }
 
 .zone:hover {
@@ -330,13 +314,14 @@ dd {
     width: 100%;
     margin: 3em 0 3em;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .box > img {
     width: 100%;
-    height: 333px;
+    height: 300px;
+    object-fit: contain;
 }
 
 .box {
@@ -345,7 +330,9 @@ dd {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    margin: 20px;
+
+    width: 350px;
+    height: 300px;
 }
 
 #portfolioId {
