@@ -378,6 +378,95 @@ dd {
 
 /* Portfolio */
 
+/* Games related */
+
+.game-container-wrapper {
+    width: 100%;
+    
+    padding: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.game-container {
+    height: 100%;
+    left: 0px;
+    width: 100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    border: 1px solid #313131;
+}
+
+.game-big-text {
+    font-style: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7e7e7;
+    text-align: center;
+}
+
+.game-text {
+    color: #e7e7e7;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.game-text-wrapper {
+    border-top:2px solid #313131;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 900px;
+}
+
+.game-bottom-text {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #e7e7e7;
+    font-size: 1.15rem;
+}
+
+.game-footage-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+}
+
+.game-footage {
+    position: relative;
+    width: 100%;
+    border: 0px;
+    margin-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+span {
+    margin-left: 70px;
+}
+
+.btn {
+    color: #e7e7e7;
+    font-weight: 600;
+    border: 1px solid #313131;
+    margin-bottom: 10px;
+    background: #313131
+}
+
+.btn-outline-primary:hover {
+    background-color: #8d8c8c;
+    border: 1px solid #8d8c8c;
+}
+
+/* Games related */
+
 /* Black Background */
 .black {
     background: #2a2a2a;
