@@ -374,6 +374,10 @@ dd {
     opacity: 1;
 }
 
+.box:hover .invisible-img {
+    opacity: 0.2;
+}
+
 #portfolioId {
     margin-top: 70px;
 }
