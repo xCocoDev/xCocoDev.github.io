@@ -108,16 +108,21 @@ h1 {
 }
 
 .my-name {
-    width: 500px;
+    width: auto;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .my-title {
-    font-size: 2rem;
-    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-top: 0px;
     color: #e7e7e7;
     text-decoration: none;
     font-weight: 550;
     width: 300px;
+    text-align: center;
 }
 
 .about-wrapper {
@@ -133,6 +138,7 @@ h1 {
     color: #e7e7e7;
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
 }
 
 .topics {
@@ -142,6 +148,7 @@ h1 {
 .topics-ordered {
     padding-left: 20px;
     margin: 0;
+    list-style: none;
 }
 
 .topics-element {
@@ -338,15 +345,13 @@ dd {
 
     position: relative;
 
-    width: 100%;
+    width: 90%;
     height: 300px;
+
+    overflow: hidden;
 }
 
 .portfolio-a-box {
-
-    width: 105%;
-    height: 105%;
-
     left: 50%;
     transform: translate(-50%, -100%);
 
@@ -366,6 +371,10 @@ dd {
     transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: opacity 1.0s;
+}
+
+.box-link {
+    overflow: hidden;
 }
 
 .box:hover .overlay-text {
