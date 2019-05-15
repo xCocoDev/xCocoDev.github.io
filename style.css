@@ -419,6 +419,10 @@ dd {
     margin-top: 2%;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .game-text-wrapper {
     border-top:2px solid #313131;
     margin-left: 10px;
