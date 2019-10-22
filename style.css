@@ -413,6 +413,12 @@ dd {
     text-align: center;
 }
 
+.text-center-portfolio {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 .game-text-wrapper {
     border-top:2px solid #313131;
     margin-left: 10px;
